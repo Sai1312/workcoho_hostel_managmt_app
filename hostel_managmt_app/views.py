@@ -38,4 +38,4 @@ class RoomListCreateView(generics.ListCreateAPIView):
 class UserCreate(generics.CreateAPIView):
     queryset= User.objects.all()
     serializer_class = UserSerializer
-    permission_classes =[]
+    permission_classes = []
