@@ -1,6 +1,6 @@
 # Hostel Management App - Django REST FrameWork
     
-    - A comprehensive Hostel Management Application API developed using Django and Django REST Framework,
+    A comprehensive Hostel Management Application API developed using Django and Django REST Framework,
 featuring secure JWT authentication for user access control. The API supports full CRUD (Create, Read, Update,
 Delete) operations, enabling efficient management of hostel entities such as rooms, students, fees,and staff.
 
