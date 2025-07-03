@@ -92,4 +92,55 @@ Authorization -> Select 'Bearer Token' -> Paste <your_token>
 | 503  | Service Unavailable | Server down or overloaded |
 | 504  | Gateway Timeout | Upstream server failed to respond in time |
 
+## ZUSTAND
+
+Zustand (German for “state”) is a fast, minimal state management solution built by the creators of react-spring.
+
+### Installation
+
+Install Zustand using npm:
+
+    npm install zustand
+
+
+## AXIOS
+
+Axios is a promise-based HTTP client used to:
+- Make API requests
+    - GET, POST, PUT, PATCH, DELETE
+
+- Handle JSON data
+
+- Work easily with async/await
+
+### Installation 
+
+    npm install axios
+
+
+## CORS
+
+CORS stands for Cross-Origin Resource Sharing. It's a security feature enforced by web browsers.
+
+### Installation 
+
+    - Run the below line in terminal:
+        pip install django-cors-headers
+    
+    - Add to INSTALLED_APPS in settings.py as below:
+        INSTALLED_APPS = [
+            ...
+            'corsheaders',
+        ]
+    
+    -Add the middleware at the top of the MIDDLEWARE list as below:
+        MIDDLEWARE = [
+            'corsheaders.middleware.CorsMiddleware',  
+            'django.middleware.common.CommonMiddleware',
+            ...
+        ]
+    
+    - Then add below line under the middleware:
+        CORS_ALLOW_ALL_ORIGINS = True
+
 
